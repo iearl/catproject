@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConsumerStart {
 
-    @Reference(url = "dubbo://localhost:20880")
+    @Reference(interfaceClass = Service.class)
     private Service service;
 
     public void sendMsg(String message){

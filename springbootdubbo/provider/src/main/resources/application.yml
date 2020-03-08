@@ -3,4 +3,4 @@ spring:
     name: dubbo-springboot-provider
   dubbo:
     server: true
-    registry: N/A
+    registry: zookeeper://localhost:2181
