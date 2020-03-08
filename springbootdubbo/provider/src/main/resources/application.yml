@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: dubbo-springboot-provider
+  dubbo:
+    server: true
+    registry: N/A
